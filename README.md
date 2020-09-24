@@ -5,7 +5,7 @@
 
 组装无人机机架，焊接电调、电流计和开关。注意：需要剪断电流计，将开关接在电流计输入端之前。**不能装桨**。
 
-![image-20200923144145326](C:\Users\w5w2b\AppData\Roaming\Typora\typora-user-images\image-20200923144145326.png)
+![image-20200923144145326](无人机起飞流程.assets/image-20200923144145326.png)
 
 **电源接线一定要再三确认正确**
 
@@ -27,7 +27,7 @@
 | 对应PowerADC引脚 | 4    | 4    | 2          | 1       | 3    | 3    |
 | 对应PowerADC信号 | 5V   | 5V   | CurrentADC | BatADC  | GND  | GND  |
 
-![image-20200923145054879](C:\Users\w5w2b\AppData\Roaming\Typora\typora-user-images\image-20200923145054879.png)
+![image-20200923145054879](无人机起飞流程.assets/image-20200923145054879.png)
 
 <img src="file:///D:\Tencent Files\1193882171\Image\C2C\Image1\DE2C6EFD88183490B0C79CE9A2CCCE63.jpg" alt="img" style="zoom: 33%;" />
 
@@ -85,7 +85,7 @@
 
 用USB线连接飞控和电脑，打开地面站软件，连接，进入配置-固件更新
 
-![image-20200923153539390](C:\Users\w5w2b\AppData\Roaming\Typora\typora-user-images\image-20200923153539390.png)
+![image-20200923153539390](无人机起飞流程.assets/image-20200923153539390.png)
 
 选择群里的”电调校准固件（拆桨！重新上电！校准完烧回原本固件！）.hex“刷入。固件烧进飞控，插电池给飞控和电调电机重新上电，之后会听到电调滴滴-嘀嘀嘀的声音，表示校准完成。
 
@@ -93,11 +93,11 @@
 
 打开ACFly工程，在Option中设置编译器为default complier version 6
 
-![image-20200923155020191](C:\Users\w5w2b\AppData\Roaming\Typora\typora-user-images\image-20200923155020191.png)
+![image-20200923155020191](无人机起飞流程.assets/image-20200923155020191.png)
 
 编译
 
-![image-20200923155041583](C:\Users\w5w2b\AppData\Roaming\Typora\typora-user-images\image-20200923155041583.png)
+![image-20200923155041583](无人机起飞流程.assets/image-20200923155041583.png)
 
 用USB连接飞控，打开地面站软件，刷入工程目录下的\Object\ACFly.hex
 
